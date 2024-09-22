@@ -281,9 +281,8 @@ section {
   }
 
   .container {
-    grid-template-columns: repeat(auto-fit,minmax(30rem, 1fr)) !important;
-    margin-top: 2em;
-    gap: 1.5rem;
+      display: flex;
+    flex-direction: column;
 
     .card {
       .card-inner {
